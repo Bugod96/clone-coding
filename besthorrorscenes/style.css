@@ -1,0 +1,237 @@
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+header,
+main section .movie .movie__header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+header,
+main section,
+main section .movie {
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 33%;
+  background-color: #f0f0f0;
+  color: #db4339;
+  height: 100%;
+  padding: 10vh 0 70px 70px;
+}
+header h1 {
+  font-size: 60px;
+  width: 50%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+header h3,
+header p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  width: 80%;
+  text-align: justify;
+  line-height: 1.1;
+}
+header p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+header nav {
+  width: 90%;
+}
+header nav ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 10px 5px 0;
+  padding-bottom: 3px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  color: #000;
+  opacity: 0.7;
+}
+header nav ul li:hover {
+  opacity: 1;
+}
+main {
+  margin-left: 33%;
+}
+main section,
+main section .movie {
+  display: -ms-flexbox;
+  display: flex;
+}
+main section {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2) 1%,
+      transparent,
+      transparent,
+      transparent,
+      transparent,
+      transparent
+    )
+    #db4339;
+  -ms-flex-align: center;
+  align-items: center;
+}
+main section .movie {
+  height: 80vh;
+  width: 80%;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #f0f0f0;
+}
+main section .movie .movie__header {
+  width: 100%;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+main section .movie .movie__header h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+main section .movie img {
+  width: 100%;
+  box-shadow: 0 80px 80px -80px #000, 0 0 12px rgba(0, 0, 0, 0.06),
+    inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+main section .movie h6 {
+  text-align: right;
+}

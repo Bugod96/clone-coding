@@ -21,7 +21,7 @@
   },
   "browserslist": {
     "browsers": [
-      "last 2 versions"
+      "last 1 versions"
     ]
   }
 }

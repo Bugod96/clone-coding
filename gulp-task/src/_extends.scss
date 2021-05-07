@@ -1,30 +1,10 @@
-%mainText {
-  font-size: 36px;
-  font-weight: 400;
-  line-height: 1.4;
+%header {
+  text-transform: uppercase;
+  font-size: $mini-font;
+  padding: $inner-padding;
+  margin-bottom: 10px;
 }
-%mediumText {
-  font-size: 24px;
-  font-weight: 500;
-  margin-right: 50px;
-}
-%categoryTitle {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 30px;
-}
-%btn {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  color: inherit;
-  border: 1px solid $grey;
-  padding: 8px 30px;
-  border-radius: 60px;
-  margin-right: 10px;
-  transition: color 0.5 linear, background-color 0.5 linear;
-  &:hover {
-    background-color: black;
-    color: white;
-  }
+%text-content {
+  font-size: $big-font;
+  padding: $inner-padding;
 }
